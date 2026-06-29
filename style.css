@@ -75,6 +75,7 @@ html{
         width: 100%;
         max-width: 400px;
         height: auto;
+        display: none;
     }
 
     /* Skills */
@@ -169,11 +170,12 @@ html{
     align-items: center;
     padding: 120px 50px 80px;
     justify-content: space-between;
-    gap: 60px;
+    gap: 40px;
 }
 .hero-image{
-    width: 450px;
-    margin-top: 20px;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
 }
 .hero-visual{
     flex: 1;
@@ -226,6 +228,7 @@ html{
     box-shadow: 0 8px 25px rgba(109,40,217,0.15);
     z-index: 10;
     white-space: nowrap;
+    display: none;
 }
 .badge-1{
     top: 30px;

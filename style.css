@@ -28,30 +28,75 @@ html{
     scroll-behavior: smooth;
 }
 /* Navbar */
-@media(max-width:768px){
+@media (max-width: 768px){
+
+    /* Navbar */
     .navbar{
         flex-direction: column;
         padding: 20px;
     }
+
     .nav-links{
         gap: 15px;
         margin-top: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
+
+    /* Hero */
     .hero{
-        padding: 120px 25px;
-        text-align: center;
         flex-direction: column;
+        text-align: center;
+        padding: 120px 25px 60px;
+        gap: 40px;
     }
+
+    .hero-content{
+        max-width: 100%;
+    }
+
     .hero-name{
         font-size: 55px;
     }
-    .skills-grid,
-    .projects-grid,
-    .contact-container{
-        grid-template-columns:1fr;
+
+    .hero-title{
+        font-size: 24px;
     }
+
+    .hero-desc{
+        max-width: 100%;
+    }
+
+    .hero-buttons{
+        justify-content: center;
+    }
+
     .hero-image{
         width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    /* Skills */
+    .skills-grid{
+        grid-template-columns: 1fr;
+    }
+
+    /* Projects */
+    .projects-grid{
+        grid-template-columns: 1fr;
+    }
+
+    /* Contact */
+    .contact-container{
+        grid-template-columns: 1fr;
+    }
+
+    /* General section padding */
+    .skills-section,
+    .projects-section,
+    .contact-section{
+        padding: 80px 25px;
     }
 }
 

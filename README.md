@@ -2,8 +2,6 @@
 
 A modern, responsive portfolio website built with HTML, CSS, and JavaScript.
 
-## 🌐 Live Demo
-https://preethi1909.github.io
 
 ## ✨ Features
 - Animated gradient hero section
